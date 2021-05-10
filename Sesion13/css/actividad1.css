@@ -1,0 +1,21 @@
+.tamaño {
+    height: 60px;
+    width: 500px;
+}
+
+div p.texto {
+        background-color: darkseagreen;
+}
+
+texto {
+    color: darkkhaki;
+}
+
+#contenedor {
+    float: right;
+}
+
+div img
+{
+    float: right;
+}

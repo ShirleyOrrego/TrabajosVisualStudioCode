@@ -1,0 +1,23 @@
+.tamaño {
+    height: 60px;
+    width: 100px;
+}
+
+#caja1 {
+    background-color: blueviolet;
+    height: 1660px;
+}
+
+#caja2 {
+    background-color: burlywood;
+    float: right;
+}
+
+#caja3 {
+    background-color: darkgrey;
+}
+
+#caja4 {
+    background-color: darkorange;
+    float: left;
+}

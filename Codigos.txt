@@ -1,7 +1,0 @@
-CÓDIGO
-1. PARA CREACIÓN DE TABLAS
-table>(caption{Productos de la tienda})>(thead>tr>th*3)>(tfoot>tr>th*3)>(tbody>(tr>td*3)*3)
-
-2. BUSCAR CODIGO EMET
-https://www.youtube.com/watch?v=9gR2j0dE-uw
-https://docs.emmet.io/cheat-sheet/
