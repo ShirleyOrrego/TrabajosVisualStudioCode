@@ -1,21 +1,29 @@
 .tamaño {
     height: 60px;
-    width: 500px;
-}
-
-div p.texto {
-        background-color: darkseagreen;
-}
-
-texto {
-    color: darkkhaki;
+    width:  800px;
+    background-color: darkseagreen;
+    font-size: 16px;
+    
 }
 
 #contenedor {
     float: right;
 }
 
+p{
+    text-align: justify;
+}
+
+
 div img
 {
+    
     float: right;
+    margin-left: 15px;
+}
+
+#textoF{
+    width: 500px;
+    text-align: right;
+    background-color: gold;
 }
