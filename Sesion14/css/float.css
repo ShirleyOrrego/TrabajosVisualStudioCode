@@ -1,0 +1,30 @@
+header{
+    background-color: darkmagenta;
+    height: 150px;
+}
+
+nav{
+    background-color:darkorange;
+    width: 25%;
+}
+
+section{
+    background-color:darksalmon;
+    width: 50%;
+}
+
+aside{
+    background-color: darkturquoise;
+    width: 25%;
+}
+
+footer{
+    clear: left;
+    background-color: goldenrod;
+    height: 100px;
+}
+
+nav,aside,section{
+    float: left;
+    height: 350px;
+}

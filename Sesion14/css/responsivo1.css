@@ -1,0 +1,20 @@
+h1{
+    color: grey;
+
+}
+
+h2{
+    color: indianred;
+    
+}
+
+img{
+    
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+section.img{
+    float: center;
+}

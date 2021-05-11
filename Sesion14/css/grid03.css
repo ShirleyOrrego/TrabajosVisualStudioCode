@@ -1,0 +1,38 @@
+.grid{
+    display: grid;
+    grid-template-areas: "head head head" "menu section main" "foot foot foot";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+}
+
+header{
+    grid-area: head;
+    background-color: moccasin;
+}
+
+nav{
+
+    grid-area: menu;
+    background-color: orange;
+}
+
+section{
+    grid-area: section;
+    background-color: orchid;
+}
+
+aside{
+    grid-area: main;
+    background-color: peru;
+}
+
+footer{
+    clear: left;
+    grid-area: foot;
+    background-color: salmon;
+   
+}
+
+nav,aside,section{
+    float: left;
+}
