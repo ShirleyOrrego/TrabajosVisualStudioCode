@@ -1,0 +1,98 @@
+.grid{
+    display: grid;
+    grid-template-areas: "head head head" "menu section main" "foot foot foot";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 200px 400px 100px;
+}
+
+header {
+    grid-area: head;
+}
+
+h1{
+    color: grey;
+    font-family: Coruier;
+    size: 1000px;
+    margin-top: 50px;
+    margin-left: 250px;
+
+}
+
+h2{
+    color: rgb(205, 92, 92);
+    size: 50px;
+    font-family: Segoe UI;
+    margin-left: 300px;
+}
+
+nav {
+    grid-area: menu;
+    background-color: darkgray;
+}
+
+nav a{
+    margin-left: 15px;
+}
+
+section {
+    grid-area: section;
+    background-color: rgba(186, 85, 211, 0.493);
+    
+}
+
+section a,p{
+    font-family: Segoe UI;
+    margin-left: 100px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+section a{
+    font-weight: bold;
+}
+
+aside {
+    grid-area: main;
+    background-color: darkmagenta;
+}
+
+aside li{
+    margin-left: 25px;
+    color: whitesmoke;
+}
+
+h3{
+    margin-left: 10px;
+    font-size: 35px;
+    color: white;
+}
+
+footer {
+    clear: left;
+    grid-area: foot;
+    background-color: mediumorchid;
+}
+h4{
+    size: 25px;
+    text-align: center;
+}
+
+body{
+    left: center;
+}
+
+
+header img{
+    float: right;
+    margin-right: 350px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+section img{
+    float: left;
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+}

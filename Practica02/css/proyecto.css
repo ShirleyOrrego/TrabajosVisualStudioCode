@@ -1,0 +1,272 @@
+.grid{
+    display: grid;
+    grid-template-areas: "head head" "menu menu" "section main" "foot foot";
+    grid-template-columns: 3fr 0.5fr;
+    grid-template-rows: 120px 50px 400px 130px;
+}
+
+header{
+    grid-area: head;
+    background-color: moccasin;
+}
+
+nav{
+
+    grid-area: menu;
+    background-color: lavender;
+}
+
+section{
+    grid-area: section;
+    background-color: beige;
+}
+
+aside{
+    grid-area: main;
+    background-color: paleturquoise;
+}
+
+footer{
+    clear: left;
+    grid-area: foot;
+    background-color: moccasin;
+   
+}
+
+nav,aside{
+    float: left;
+}
+
+nav a{
+    text-underline-position: none;
+    border: 1px solid;
+    border-color: lightgrey;
+    padding-top: 13px;
+    padding-bottom: 8px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+header img{
+    height: 130px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+
+nav.a{
+    text-underline-position: none;
+}
+
+footer img{
+    height: 110px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+#caja1{
+    float:left ;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#caja2{
+    float:left ;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#caja3{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 750px;
+    font-size: 25px;
+}
+
+#caja4{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 1050px;
+    font-size: 25px;
+}
+
+/*-----
+}*/
+
+#imagen1{
+    height: 140px;
+    width: 160px;
+    margin-left: 25px;
+    float: left;
+    margin-top: -20px;
+}
+
+#imagen2{
+    height: 140px;
+    width: 160px;
+    margin-left: 13px;
+    float: left;
+    margin-top: -22px;
+}
+
+#imagen3{
+    height: 140px;
+    width: 160px;
+    margin-left: 15px;
+    margin-top: -22px;
+    float: left;
+}
+
+#imagen4{
+    height: 140px;
+    width: 160px;
+    margin-left: 15px;
+    margin-top: -22px;
+    float: left;
+}
+
+#imagen5{
+    height: 140px;
+    width: 160px;
+    margin-left: 13px;
+    margin-top: -22px;
+    float: left;
+}
+
+#imagen6{
+    height: 140px;
+    width: 160px;
+    margin-left: 15px;
+    margin-top: -45px;
+    float: left;
+}
+
+h2, h3{
+    margin-left: 20px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+#texto1{
+    margin-left: 47px;
+}
+
+#ver1{
+    margin-top: 150px;
+    margin-left: -100px;
+    float: left;
+}
+
+#texto2{
+    margin-top: -57px;
+    margin-left: 230px;
+}
+
+#ver2{
+    margin-top: 145px;
+    margin-left: -100px;
+    float: left;
+}
+
+#texto3{
+    margin-top: -57px;
+    margin-left: 390px;
+}
+
+#ver3{
+    margin-top: 145px;
+    margin-left: -90px;
+    float: left;
+}
+
+#texto4{
+    margin-top: -57px;
+    margin-left: 550px;
+}
+
+#ver4{
+    margin-top: 145px;
+    margin-left: -110px;
+    float: left;
+}
+
+
+#texto5{
+    margin-top: -57px;
+    margin-left: 720px;
+}
+
+#ver5{
+    margin-top: 140px;
+    margin-left: -110px;
+    float: left;
+}
+
+
+#texto6{
+    margin-top: -57px;
+    margin-left: 900px;
+}
+
+#ver6{
+    margin-top: 115px;
+    margin-left: -100px;
+    float: left;
+}
+
+
+
+/*------*/
+header a{
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+}
+
+aside fieldset{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 150px;
+    background-color: lightsteelblue;
+}
+
+li{
+    margin-left: 20px;
+}
+
+#cuadro1{
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+}
+
+#cuadro2{
+    float: left;
+    margin-top: -110px;
+    margin-left: 300px;
+    width: 200px;
+    border: none;
+}
+
+#cuadro3{
+    float: left;
+    margin-top: -110px;
+    margin-left: 600px;
+    width: 200px;
+    border: none;
+}
+
+#cuadro4{
+    float: left;
+    margin-top: -110px;
+    margin-left: 900px;
+    width: 150px;
+    border: none;
+}

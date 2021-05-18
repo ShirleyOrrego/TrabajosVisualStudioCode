@@ -1,0 +1,194 @@
+.grid{
+    display: grid;
+    grid-template-areas: "head head" "menu menu" "section main" "foot foot";
+    grid-template-columns: 3fr 0.5fr;
+    grid-template-rows: 120px 50px 400px 130px;
+}
+
+header{
+    grid-area: head;
+    background-color: moccasin;
+}
+
+nav{
+
+    grid-area: menu;
+    background-color: lavender;
+}
+
+section{
+    grid-area: section;
+    background-color: beige;
+}
+
+aside{
+    grid-area: main;
+    background-color: paleturquoise;
+}
+
+footer{
+    clear: left;
+    grid-area: foot;
+    background-color: moccasin;
+   
+}
+
+nav,aside,section{
+    float: left;
+}
+
+nav a{
+    text-underline-position: none;
+    border: 1px solid;
+    border-color: lightgrey;
+    padding-top: 13px;
+    padding-bottom: 8px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+header img{
+    height: 130px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+
+
+nav.a{
+    text-underline-position: none;
+}
+
+footer img{
+    height: 110px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+#caja1{
+    float:left ;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#caja2{
+    float:left ;
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#caja3{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 750px;
+    font-size: 25px;
+}
+
+#caja4{
+    position: relative;
+    margin-top: -30px;
+    margin-left: 1050px;
+    font-size: 25px;
+}
+
+
+
+ h2{
+    margin-left: 60px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+
+header a{
+    margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+}
+
+div fieldset{
+    margin-left: 70px;
+    width: 700px;
+    
+}
+
+
+
+#nombre{
+    margin-left: 25px;
+    height: 20px;
+    width: 550px;
+} 
+#email{
+    margin-left: 47px;
+    width: 550px;
+    height: 20px;
+} 
+#asunto{
+    margin-left: 35px;
+    width: 550px;
+    height: 20px;
+} 
+#mensaje{
+    width: 550px;
+    margin-left: 20px;
+    height: 70px;
+}
+
+
+aside fieldset{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 150px;
+    background-color: lightsteelblue;
+}
+
+li{
+    margin-left: 20px;
+}
+
+#cuadro1{
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+}
+
+#cuadro2{
+    float: left;
+    margin-top: -110px;
+    margin-left: 300px;
+    width: 200px;
+    border: none;
+}
+
+#cuadro3{
+    float: left;
+    margin-top: -110px;
+    margin-left: 600px;
+    width: 200px;
+    border: none;
+}
+
+#cuadro4{
+    float: left;
+    margin-top: -110px;
+    margin-left: 900px;
+    width: 150px;
+    border: none;
+}
+
+
+#cuadro5{
+    float: right;
+    margin-top: -320px;
+    margin-right: 50px;
+    width: 350px;
+    border: none;
+}
