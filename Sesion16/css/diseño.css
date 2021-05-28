@@ -1,0 +1,10 @@
+#c1b{
+    background-color: bisque;
+}
+
+.bloque{
+    background-color: gold;
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+}

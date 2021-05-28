@@ -1,0 +1,53 @@
+fieldset{
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 500px;
+    background-color: rgb(218, 171, 190);
+}
+
+/*
+.datosentrada{
+    width: 40%;
+    margin: auto;
+}
+*/
+input{
+    display: block;
+    margin: 10px;
+}
+
+#contenedor{
+    width: 360px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: darksalmon;
+    padding-left: 10px;
+    font-family: calibri;
+}
+
+span{
+    width: 120px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+
+.nom{
+    background-color: deeppink;
+    width: 150px;
+}
+
+.titu{
+    background-color: greenyellow;
+    width: 150px;
+}
+
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}

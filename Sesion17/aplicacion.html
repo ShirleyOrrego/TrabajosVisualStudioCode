@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/apli.css">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <label for="nombre" style="font-size: 25px;"><b>Nombre</b></label>
+        <input style="background-color: cornsilk;" type="text" name="nombre" id="nombre"> <br><br>
+        <label  for="movil" style="font-size: 25px;"><b>Num Celular</b></label>
+        <input style="background-color: cornsilk;" type="text" name="movil" id="movil"><br><br>
+        
+        <input type="button" onclick="guardarDatos()" style="border-radius: 10px; font-size: 25px;"  value="Guardar Datos"> <br>
+        
+        <input type="button" onclick="recuperarDatos()" style="border-radius: 10px; font-size: 25px;"  value="Recuperar Datos"> 
+        
+        <p id="datos">Pulsa recuperar datos para ver la información guardada</p>
+    </fieldset>
+
+    <script type="text/javascript" src="js/miprograma.js"></script>
+
+</body>
+</html>
