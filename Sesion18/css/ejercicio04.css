@@ -1,0 +1,51 @@
+p{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/*Alternativa, al anterior kayframes*/
+@keyframes slidein{
+    0%{
+        margin-left: 100%;
+        width: 100%;
+    }
+    30%{
+        background-color: greenyellow;
+    }
+    60%{
+        background-color: gold;
+    }
+    90%{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/*´Para que no muestra la barra de desplazamiento
+en la parte inferior*/
+body{
+    overflow: hidden;
+}
+
+p{
+    animation: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*Alternativa-al anterior p, es para un ahorro de codigo
+p{
+    animation: 3s infinite alternate slidein;
+}*/
